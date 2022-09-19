@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>  <!-- cabeçalho = introduz algo -->
+        <h1>estudo do html</h1>
+        <p>conceitos introdutorios da linguagem</p> 
+        <nave> <!-- agrupa links de navegação -->
+          <ol>
+            <li><a href="#introdução">introdução</a></li>
+          </ol>
+        </nave>   
+    </header>
+    <main> <!-- conteudo principal da página -->
+      <section> <!-- separa topicos por conteudo -->
+        <h3>uso de tags</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, optio. Tempore, at pariatur ad ullam nostrum, quia officiis, excepturi quam deleniti deserunt sint. Quo dolor iure esse, nihil ad dicta?</p>
+      </section>
+    <section>
+        <h3>uso de tabelas</h3>
+        <table border="1" cellpadding="3" style="border-collapse: collapse;">
+            <thead> <!-- cabeçalho da tabela -->
+                <tr>
+                    <!-- colspan =duração da coluna -->
+                    <th colspan="4">Usuários do sistemas</th>
+                </tr>
+             <tr> <!-- table row -->
+                <th>Tipo</td>                
+               <th>nome</th> <!-- table header -->
+               <th>CPF</th>
+               <th>Data Nasc.</th>
+             </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionario</td>
+                    <td>Victor Oliveira</td> <!-- table data -->
+                    <td>063.794.687-14</td>
+                    <td>30/07/2001</td>
+                </tr>
+                <tr>
+                    <td>Marcia  </td> <!-- table data -->
+                    <td>004.512.347-07</td>
+                    <td>19/11/1969</td>
+                </tr>
+                <tr> <!-- rowspan = duração da linha -->
+                    <td rowspan="2">cliente</td>
+                    <td>ygin  </td> <!-- table data -->
+                    <td>025.542.547-77</td>
+                    <td>19/07/2002</td>
+                </tr>
+                <tr>
+                    <td>cleitu </td> <!-- table data -->
+                    <td>054.582.747-77</td>
+                    <td>09/08/1989</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr /> 
+        <table border="1" cellpadding="3" style="border-collapse: colapse;">
+          <tr>
+             <td colspan="2">celula 1-1</td>
+             <td>celula 1-3</td>
+          </tr>
+          <tr>
+            <td>celula 2-1</td>
+            <td>celula 2-2</td>
+            <td>celula 2-3</td>
+          </tr>
+        </table>
+    </section>
+    </main>
+    <hr /> <!-- horizontal rule -->
+    <footer> <!-- da informaçoes sobre autoria/encerra o conteudo -->
+        © <!-- &copy; = © -->
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        liv3ra
+    </footer>
+</body>
+</html>
