@@ -1,0 +1,101 @@
+* {
+    /*
+    garante que os elementpos respeitem as dimençoes quando possuem padding e border
+    */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'arial', sans-serif;
+    margin: 0;
+}
+
+.button {
+    background-color:#d42d2d;
+    border: none;
+    /* <vertical> <horizontal> */
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #a50000;
+}
+
+.button-azul {
+  background-color: #d42d2d;
+}
+.button-azul: hover {
+    background-color: ;
+}
+
+.my-table {
+    width: 400px;
+    border-radius: collapse;
+    margin:auto
+}
+
+.my-table td, .my-table th {
+    border: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+.my-table th {
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.my-table tr:hover {
+    background-color: #ddd; /* exadecimal */
+}
+
+/* even = par / odd = impar */
+/*aplica o estilo aos tr de numero par*/
+
+.my-table tr:nth-child(even) {
+     background-color: rgb(222, 222, 222);
+}
+
+.my-table td {
+    text-align: center;
+}
+
+/* custom form */
+
+.my-form {
+    border-radius: 6px;
+    background-color: rgb(222, 222, 222);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.my-form input{
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+} 
+
+.toda-largura {
+    width: 100%;
+    margin: 6px 0;
+}    
+
+.my-form-group {
+   margin-bottom: 6px;
+}
+
+h3 {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    text-align: center;
+    background-color: cornflowerblue;
+}

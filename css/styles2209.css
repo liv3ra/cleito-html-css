@@ -1,0 +1,51 @@
+h3 {
+    background-color: rgb(0, 255, 60);
+}
+.box1 {
+    background-color: brown;
+    /* padding = espaçamento interno */
+    padding: 16px;
+    /* margin = espaçamento externo */
+    margin: 8px;
+}
+.box2 {
+    background-color: burlywood;
+    /* T R B L = horario */
+    padding: 8px 20px 4px 10px;
+    margin: 8px 10px 20px 40px;
+}
+.box3 {
+    background-color: blueviolet;
+    /* espessura estilo cor */
+    /* ex: dashed, dotted, solid */
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+.box4 {
+    background-color: cornflowerblue;
+    width: 400px;
+    padding:  20px;
+    border: 5px solid red;
+    border-radius: 8px;
+}
+/* * = todos os elementos */
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: url(https://soulcodeacademy.org/assets/images/logo/light-logo.png) right bottom no-repeat fixed;
+
+    /*background-image: url("https://img.freepik.com/free-vector/gradient-lo-fi-illustrations_52683-82981.jpg?w=2000");
+    background-repeat: no-repeat;
+    /* cover = zoom
+    contain = estica a imagem */
+    background-size: contain; 
+    /*background-position: center;*/
+    background-position: right bottom;
+    height: 100vh; = viewport heigt
+    background-attachment: fixed;
+}
