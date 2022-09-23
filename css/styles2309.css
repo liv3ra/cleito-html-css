@@ -28,8 +28,8 @@ body {
 .button-azul {
   background-color: #d42d2d;
 }
-.button-azul: hover {
-    background-color: ;
+.button-azul:hover {
+    background-color: #ddd;
 }
 
 .my-table {
